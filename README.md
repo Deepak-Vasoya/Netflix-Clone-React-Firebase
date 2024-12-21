@@ -139,3 +139,124 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) f
 📘 Firebase Docs: [https://firebase.google.com/docs](https://firebase.google.com/docs)
 
 ---
+
+## Folder Structure
+
+```
+├── app.js
+├── global-styles.js
+├── index.js
+├── logo.svg
+├── seed.js
+├── components
+│   ├── index.js
+│   ├── accordion
+│   │   ├── index.js
+│   │   └── styles
+│   │       └── accordion.js
+│   ├── card
+│   │   ├── index.js
+│   │   └── styles
+│   │       └── card.js
+│   ├── feature
+│   │   ├── index.js
+│   │   └── styles
+│   │       └── feature.js
+│   ├── footer
+│   │   ├── index.js
+│   │   └── styles
+│   │       └── footer.js
+│   ├── form
+│   │   ├── index.js
+│   │   └── styles
+│   │       └── form.js
+│   ├── header
+│   │   ├── index.js
+│   │   └── styles
+│   │       └── header.js
+│   ├── jumbotron
+│   │   ├── index.js
+│   │   └── styles
+│   │       └── jumbotron.js
+│   ├── loading
+│   │   ├── index.js
+│   │   └── styles
+│   │       └── loading.js
+│   ├── opt-form
+│   │   ├── index.js
+│   │   └── styles
+│   │       └── opt-form.js
+│   ├── player
+│   │   ├── index.js
+│   │   └── styles
+│   │       └── player.js
+│   ├── profiles
+│   │   ├── index.js
+│   │   └── styles
+│   │       └── profiles.js
+├── constants
+│   └── routes.js
+├── containers
+│   ├── browse.js
+│   ├── faqs.js
+│   ├── footer.js
+│   ├── header.js
+│   ├── jumbotron.js
+│   ├── profiles.js
+├── context
+│   └── firebase.js
+├── fixtures
+│   ├── faqs.json
+│   └── jumbo.json
+├── helpers
+│   └── routes.js
+├── hooks
+│   ├── index.js
+│   ├── use-auth-listener.js
+│   └── use-content.js
+├── lib
+│   └── firebase.prod.js
+├── pages
+│   ├── browse.js
+│   ├── home.js
+│   ├── index.js
+│   ├── signin.js
+│   └── signup.js
+├── utils
+│   ├── index.js
+│   └── selection-filter.js
+├── __tests__
+│   ├── components
+│   │   ├── accordion.test.js
+│   │   ├── card.test.js
+│   │   ├── feature.test.js
+│   │   ├── footer.test.js
+│   │   ├── form.test.js
+│   │   ├── header.test.js
+│   │   ├── jumbotron.test.js
+│   │   ├── loading.test.js
+│   │   ├── opt-form.test.js
+│   │   ├── player.test.js
+│   │   ├── profiles.test.js
+│   │   └── __snapshots__
+│   │       ├── accordion.test.js.snap
+│   │       ├── card.test.js.snap
+│   │       ├── feature.test.js.snap
+│   │       ├── footer.test.js.snap
+│   │       ├── form.test.js.snap
+│   │       ├── header.test.js.snap
+│   │       ├── jumbotron.test.js.snap
+│   │       ├── loading.test.js.snap
+│   │       ├── opt-form.test.js.snap
+│   │       ├── player.test.js.snap
+│   │       ├── profiles.test.js.snap
+│   ├── containers
+│   │   └── profiles.test.js
+│   ├── pages
+│   │   ├── browse.test.js
+│   │   ├── home.test.js
+│   │   ├── signin.test.js
+│   │   └── signup.test.js
+│   └── utils
+│       └── selection-filter.test.js
+```
